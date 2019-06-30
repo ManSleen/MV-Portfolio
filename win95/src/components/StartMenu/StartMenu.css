@@ -1,0 +1,7 @@
+.start-menu-container {
+  background-color: white;
+  width: auto;
+  position: fixed;
+  bottom: 42px;
+  cursor: default;
+}
