@@ -43,7 +43,7 @@ const StartButton = props => {
   return (
     <div onClick={props.openStartMenu} className="start-button-container">
       <StartButtonDiv>
-        <Icon width="28" height="28" name="logo" />{" "}
+        <Icon width={28} height={28} name="logo" />{" "}
         <div className="start-button-text">Start</div>
       </StartButtonDiv>
     </div>

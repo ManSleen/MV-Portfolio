@@ -5,7 +5,7 @@ import "../StartMenu/StartMenu.css";
 const StartMenu = () => {
   return (
     <div className="start-menu-container">
-      <List>
+      <List width={250}>
         <List.Item icon="folder_exe2">
           <List>
             <List.Item icon="folder_exe">Accessories</List.Item>

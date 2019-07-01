@@ -25,6 +25,30 @@
 
 .time-section-container {
   box-shadow: inset 1px 1px 0px 1px #868a8e, 1px 1px 0px 1px #ffffff;
-  padding: 5px 10px;
+  padding: 8px 10px;
   margin-right: 5px;
+  width: 5%;
+}
+
+.start-button-container {
+  width: 7%;
+}
+
+.navbar-middle {
+  width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.notepad-minimized {
+  width: 20%;
+  background-color: rgb(224, 223, 209);
+  height: 31px;
+  line-height: 35px;
+  box-shadow: inset 1px 1px 0px 1px #868a8e, inset 1px 1px 0px 1px #4e4e4e,
+    1px 1px 0px 1px #ffffff;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 1rem;
 }

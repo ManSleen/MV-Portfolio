@@ -5,25 +5,19 @@ import StartMenu from "../StartMenu/StartMenu";
 import "./NavBar.css";
 
 class NavBar extends React.Component {
-  state = {
-    isNavBarActive: false
-  };
-
-  openStartMenu = () => {
-    this.setState({
-      isNavBarActive: !this.state.isNavBarActive
-    });
-    console.log("firing openStartMenu!");
-  };
-
   render() {
-    console.log(this.state);
+    console.log(this.props);
     return (
       <div className="navbar-container">
         <div className="nav-bar-border" />
-        {this.state.isNavBarActive && <StartMenu />}
+        {this.props.isNavBarActive && <StartMenu />}
 
-        <StartButton openStartMenu={this.openStartMenu} />
+        <StartButton openStartMenu={this.props.openStartMenu} />
+        <div className="navbar-middle">
+          {this.props.notepadIsOpen && (
+            <div className="notepad-minimized">Notepad</div>
+          )}
+        </div>
         <TimeSection />
       </div>
     );
