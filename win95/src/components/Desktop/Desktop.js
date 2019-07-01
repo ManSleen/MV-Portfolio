@@ -15,6 +15,7 @@ class Desktop extends React.Component {
         <Notepad openNotepad={this.props.openNotepad} />
         <Network />
         <Email />
+
         <Github />
         <LinkedIn />
         {this.props.notepadIsOpen && (

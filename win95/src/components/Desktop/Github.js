@@ -5,15 +5,18 @@ import { Link } from "react-router-dom";
 const Github = () => {
   return (
     <Draggable grid={[100, 100]}>
-      <Link to="https://github.com/ManSleen">
-        <div className="icon">
-          <img
-            draggable="false"
-            src={require("./icon_images/github-logo3.png")}
-          />
-          <p>GitHub</p>
-        </div>
-      </Link>
+      <div
+        onDoubleClick={() =>
+          window.open("https://github.com/ManSleen", "_blank")
+        }
+        className="icon"
+      >
+        <img
+          draggable="false"
+          src={require("./icon_images/github-logo3.png")}
+        />
+        <p>GitHub</p>
+      </div>
     </Draggable>
   );
 };
