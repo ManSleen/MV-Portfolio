@@ -1,0 +1,10 @@
+    
+[build]
+  base = "win95/"
+  publish = "win95/build/"
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
