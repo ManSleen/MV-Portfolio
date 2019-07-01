@@ -1,10 +1,10 @@
 import React from "react";
-
 import Window from "./Window";
 import Notepad from "./Notepad";
 import Network from "./Network";
 import Email from "./Email";
 import Github from "./Github";
+import LinkedIn from "./LinkedIn";
 
 import "../Desktop/Desktop.css";
 
@@ -16,6 +16,7 @@ class Desktop extends React.Component {
         <Network />
         <Email />
         <Github />
+        <LinkedIn />
         {this.props.notepadIsOpen && (
           <Window openNotepad={this.props.openNotepad} />
         )}
