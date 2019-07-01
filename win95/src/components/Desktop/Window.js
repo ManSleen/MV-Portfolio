@@ -35,7 +35,8 @@ class Window extends React.Component {
           ]}
         >
           <TextArea rows={100} cols={50}>
-            Some text in here
+            Michael VanSleen: Versatile creative experienced in web development,
+            graphic design and digital marketing and communications.
           </TextArea>
         </Modal>
 
