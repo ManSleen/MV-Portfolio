@@ -1,0 +1,31 @@
+.desktop-container {
+  padding: 1px 0;
+}
+
+.window-inside {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  box-shadow: inset 1px 1px 0px 1px #868a8e, 1px 1px 0px 1px #ffffff;
+  font-family: "VT323", monospace;
+  font-size: 1.2rem;
+}
+
+.icon {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  height: 65px;
+  width: 100px;
+  margin: 40px 20px;
+  color: white;
+}
+
+.icon svg {
+  width: 42px;
+  height: 42px;
+}

@@ -1,0 +1,54 @@
+.navbar-container {
+  height: 40px;
+  background-color: #c3c7cb;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2px;
+}
+
+.nav-bar-border {
+  border-top: 2px solid white;
+  position: fixed;
+  bottom: 38px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.start-button-text {
+  margin-left: 5px;
+}
+
+.time-section-container {
+  box-shadow: inset 1px 1px 0px 1px #868a8e, 1px 1px 0px 1px #ffffff;
+  padding: 8px 10px;
+  margin-right: 5px;
+  width: 5%;
+}
+
+.start-button-container {
+  width: 7%;
+}
+
+.navbar-middle {
+  width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.notepad-minimized {
+  width: 20%;
+  background-color: rgb(224, 223, 209);
+  height: 31px;
+  line-height: 35px;
+  box-shadow: inset 1px 1px 0px 1px #868a8e, inset 1px 1px 0px 1px #4e4e4e,
+    1px 1px 0px 1px #ffffff;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
